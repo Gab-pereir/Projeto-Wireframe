@@ -1,0 +1,167 @@
+@media (max-width: 1200px){
+    .section-hero .text {
+        max-width: 49%;
+    }
+    .section-card-feature .all-cards{
+        width: 100%;
+    }
+    .section-card-feature .all-cards .card{
+        width: 30%;
+    }
+    .section-card-feature .second-area .all-images{
+        gap: 2rem 2%;
+    }
+    .section-card-feature .second-area .all-images .image{
+        width: 23.5%;
+    }
+    footer main nav{
+        max-width:63rem; ;
+    }
+}
+
+@media (max-width: 991px){
+    header nav {
+        display: none;
+    }
+    header .menu-mobile{
+        display: block;
+    }
+    .section-hero .container {
+        flex-direction: column;
+    }
+    .section-hero .text{
+        max-width: 100%;
+        margin-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-hero .text h1, p {
+        text-align: center;
+    }
+    .section-card-feature .all-cards{
+        flex-direction: column;
+    }
+    .section-card-feature .all-cards .card{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 3rem;
+        margin-bottom: 2rem;
+    }
+    .section-card-feature .all-cards .card:last-child{
+        margin-bottom: 0;
+    }
+    .section-card-feature .all-cards .card .info{
+        max-width: 100%;
+        margin-top: 2rem;
+    }
+    footer main nav{
+        max-width:45rem; ;
+    }
+}
+
+@media (max-width: 768px){
+    footer main{
+        flex-direction: column;
+        align-items: center;
+    }
+    footer main .area-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4rem;
+    }
+    footer main .area-left p{
+        text-align: center;
+    }
+    footer main nav{
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px){
+    .section-card-feature .second-area .top {
+        flex-direction: column;
+    }
+    .section-card-feature .second-area .top .title h2,.section-card-feature .second-area .top .title p {
+        text-align: center;
+    } 
+    .section-card-feature .second-area .top .title h2 {
+        margin-bottom: 8px;
+    }
+}
+
+@media (max-width: 480px){
+    html{
+        font-size: 55%;
+    }
+    header .logo{
+        max-width: 13rem;
+    }
+    .section-hero {
+        padding: 4rem 0rem;
+    }
+    .section-hero .text p{
+        margin-bottom: 2.5rem;
+    }
+    .section-hero .image {
+        height: 30rem;
+    }
+    .section-hero .image img {
+        max-width: 100%;
+    }
+    h1{
+        font-size: 4.2rem;
+    }
+    .section-card-feature{
+        padding: 4rem 0;
+    }
+    .section-card-feature .title {
+        text-align: center;
+        max-width: 80%;
+        padding-bottom: 0;
+    }
+    .section-card-feature .main-area{
+        margin-bottom: 4rem;
+    }
+    .section-card-feature .second-area{
+        margin-top: 4rem;
+    }
+    .section-card-feature .second-area .top p{
+       margin: 0 auto;
+       margin-bottom: 3rem;
+    }
+    .section-card-feature .second-area .all-images{
+        gap: 0.5rem 2%;
+    }
+    .section-card-feature .second-area .all-images .image{
+        width: 49%;
+    }
+    .section-newslester{
+        padding: 3rem 0rem;
+        margin-top: 6rem;
+    }
+    footer .copy{
+        flex-direction: column;
+    }
+    footer .copy p {
+        margin-bottom: 2rem;
+    }
+
+    footer main nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    footer main nav .item{
+        margin-bottom: 4rem;
+    }
+    footer main nav .item:last-child{
+        margin-bottom: 0rem;
+    }
+    footer main nav .item ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

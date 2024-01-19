@@ -1,0 +1,6 @@
+.container {
+    width: 100%; /* Largura total */
+    max-width: 1246px; /* Largura máxima */
+    margin: 0 auto; /* Centralização horizontal */
+    padding: 0px 15px; /* Espaçamento interno */
+}

@@ -1,0 +1,29 @@
+/* Resetando as margens, preenchimentos e bordas para zero em todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none; /* Removendo decoração de texto padrão */
+    list-style: none; /* Removendo estilos de lista padrão */
+    box-sizing: border-box; /* Garantindo que a largura e altura incluam a borda e o preenchimento */
+    font-size: 1.6rem; /* Definindo o tamanho da fonte padrão para 16 pixels (1.6rem = 16px * 1) */
+
+    font-family: 'Inter', sans-serif; /* Definindo a fonte padrão como 'Inter'*/
+}
+
+/* Garantindo que as imagens não ultrapassem a largura do contêiner pai e se comportem como blocos */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Configurando o tamanho da fonte base para 62.5% do tamanho padrão do navegador, facilitando o cálculo em rem */
+html {
+    font-size: 62.5%;
+}
+
+/* Configurando o cursor como ponteiro para botões e links para indicar interatividade */
+button, a {
+    cursor: pointer;
+}
